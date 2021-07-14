@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "jmh";
+  src: url("/assets/fonts/JMH Typewriter.otf");
+}
+
+html, body {
+  height: 100%;
+
+  background: black;
+
+  color: white;
+
+  font-family: "jmh", "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.2rem;
+}
+
+body {
+  display: flex;
+
+  flex-flow: column;
+
+  font-size: 32px;
+  padding: 2rem;
+
+  margin: 0;
+}
+
+header {
+  width: 100%;
+
+  max-height: 3rem;
+
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  font-size: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+
+  margin: 0 1rem;
+
+  font-weight: lighter;
+}
+
+nav a.active {
+  font-weight: bolder;
+}
+
+nav a:hover {
+  font-weight: bolder;
+}
+
+.blinking-cursor {
+  color: white;
+  font-weight: normal;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+
+  width: 100%;
+
+}
+
+footer {
+  max-height: 2rem;
+
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+hr {
+  width: 100%;
+  height: 0.1rem;
+
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
