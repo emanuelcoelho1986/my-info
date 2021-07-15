@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "jmh";
+  src: url("/assets/fonts/JMH Typewriter.otf");
+}
+
+html, body {
+  height: 100%;
+
+  background: black;
+
+  color: white;
+
+  font-family: "jmh", "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.2rem;
+}
+
+body {
+  display: flex;
+
+  flex-flow: column;
+
+  font-size: 32px;
+  padding: 0 2rem;
+
+  margin: 0;
+}
+
+hr {
+  width: 100%;
+  height: 0.1rem;
+
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  font-size: 15px;
+}
+
+.container {
+  max-width: 768px;
+
+  justify-self: center;
+}
+
+.container blockquote {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  
+  padding: 2rem 0 0;
+  max-height: 2rem;
+}

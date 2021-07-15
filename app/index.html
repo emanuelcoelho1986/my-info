@@ -8,14 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {{content-for "head"}}
+    <link rel="shortcut icon" type="image/png" href="https://avatars.githubusercontent.com/u/1029702?v=4">
 
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/my-info.css">
 
     {{content-for "head-footer"}}
+
+    <script src="https://kit.fontawesome.com/1446f6d431.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    {{content-for "body"}}
+    <div id="main">
+      {{content-for "body"}}
+    </div>
 
     <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/my-info.js"></script>
