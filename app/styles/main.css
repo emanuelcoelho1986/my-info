@@ -55,7 +55,7 @@ hr {
 footer {
   display: flex;
   justify-content: center;
-  
+
   padding: 2rem 0 0;
   max-height: 2rem;
 }
