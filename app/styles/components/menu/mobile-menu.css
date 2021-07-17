@@ -1,6 +1,9 @@
 .mobile-menu-burguer {
   display: inline-block;
   cursor: pointer;
+
+  background: none;
+  border: 0;
 }
 
 .mobile-menu-burguer > .bar1, .bar2, .bar3 {
