@@ -1,0 +1,20 @@
+footer nav {
+  font-size: 22px;
+}
+
+footer nav a {
+  text-transform: none;
+  text-decoration: none;
+  margin: 0 0.5rem;
+
+  color: white;
+}
+
+footer nav a:hover {
+  opacity: 0.7;
+}
+
+footer nav a:last-of-type {
+  text-transform: none;
+  margin: 0;
+}

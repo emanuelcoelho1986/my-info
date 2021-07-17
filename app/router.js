@@ -11,4 +11,7 @@ Router.map(function () {
   this.route('blog');
   this.route('about');
   this.route('socials');
+  this.route('education');
+  this.route('experience');
+  this.route('other');
 });

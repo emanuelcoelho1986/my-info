@@ -1,0 +1,11 @@
+.picture-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.picture-container img {
+  max-width: 250px;
+
+  border-radius: 50%
+}
