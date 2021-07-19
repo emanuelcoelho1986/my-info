@@ -7,8 +7,5 @@
 </button>
 
 <div id="mySidenav" class="sidenav {{ if this.isOpen "change" }}">
-  <LinkTo @route="home">127.0.0.0</LinkTo>
-  <LinkTo @route="education">Education</LinkTo>
-  <LinkTo @route="experience">Experience</LinkTo>
-  <LinkTo @route="other">Other</LinkTo>
+  <Menu::MenuLinks />
 </div>
