@@ -1,15 +1,7 @@
 <div class="card">
-  <div class="card-date">May 2019 - now</div>
-  <div class="card-name">Redacted</div>
+  <div class="card-date">{{ this.formatedTime }}</div>
+  <div class="card-name">{{ @name }}</div>
   <div class="card-description">
-    <p>
-      Working with some of the most cutting edge technologies in the market.
-    </p>
-    <ul>
-      <li>Go</li>
-      <li>React/TypeScript</li>
-      <li>Angular 8+</li>
-      <li>EmberJS</li>
-    </ul>
+    {{markdown-to-html @description}}
   </div>
 </div>

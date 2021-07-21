@@ -4,6 +4,11 @@
   display: flex;
   flex-flow: column;
   justify-content: space-between;
+  align-items: center;
+}
+
+.timeline .card {
+  width: 100%;
 }
 
 @media screen and (min-width: 600px) {

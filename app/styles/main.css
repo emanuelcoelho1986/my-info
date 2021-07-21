@@ -41,12 +41,9 @@ hr {
 
   width: 100%;
   font-size: 15px;
-}
 
-@media only screen and (min-width: 640px) {
-  .content{
-    flex-flow: row;
-  }
+  max-width: 1333px;
+  align-self: center;
 }
 
 .container {
@@ -65,4 +62,10 @@ footer {
 
   padding: 2rem 0 0;
   max-height: 2rem;
+}
+
+@media only screen and (min-width: 640px) {
+  .content{
+    flex-flow: row;
+  }
 }
