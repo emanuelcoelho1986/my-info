@@ -13,6 +13,8 @@ jobs:
       - run: npm install
       - run: npm test
       - run: npm run build
+      - run: |
+          sh utils/extract-version.sh
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
