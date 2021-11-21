@@ -13,14 +13,5 @@ module('Integration | Component | profile/picture', function (hooks) {
     await render(hbs`<Profile::Picture />`);
 
     assert.dom(this.element).hasText('');
-
-    // Template block usage:
-    await render(hbs`
-      <Profile::Picture>
-        template block text
-      </Profile::Picture>
-    `);
-
-    assert.dom(this.element).hasText('template block text');
   });
 });

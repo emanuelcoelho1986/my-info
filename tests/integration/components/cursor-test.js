@@ -12,15 +12,6 @@ module('Integration | Component | cursor', function (hooks) {
 
     await render(hbs`<Cursor />`);
 
-    assert.dom(this.element).hasText('');
-
-    // Template block usage:
-    await render(hbs`
-      <Cursor>
-        template block text
-      </Cursor>
-    `);
-
-    assert.dom(this.element).hasText('template block text');
+    assert.dom(this.element).hasText('|');
   });
 });
