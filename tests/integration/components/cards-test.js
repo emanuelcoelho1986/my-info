@@ -13,14 +13,5 @@ module('Integration | Component | cards', function (hooks) {
     await render(hbs`<Cards />`);
 
     assert.dom(this.element).hasText('');
-
-    // Template block usage:
-    await render(hbs`
-      <Cards>
-        template block text
-      </Cards>
-    `);
-
-    assert.dom(this.element).hasText('template block text');
   });
 });

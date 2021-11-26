@@ -12,15 +12,6 @@ module('Integration | Component | timeline/card', function (hooks) {
 
     await render(hbs`<Timeline::Card />`);
 
-    assert.dom(this.element).hasText('');
-
-    // Template block usage:
-    await render(hbs`
-      <Timeline::Card>
-        template block text
-      </Timeline::Card>
-    `);
-
-    assert.dom(this.element).hasText('template block text');
+    assert.dom(this.element).hasText('Flex');
   });
 });

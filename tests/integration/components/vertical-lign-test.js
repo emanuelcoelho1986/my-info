@@ -13,14 +13,5 @@ module('Integration | Component | vertical-lign', function (hooks) {
     await render(hbs`<VerticalLign />`);
 
     assert.dom(this.element).hasText('');
-
-    // Template block usage:
-    await render(hbs`
-      <VerticalLign>
-        template block text
-      </VerticalLign>
-    `);
-
-    assert.dom(this.element).hasText('template block text');
   });
 });
