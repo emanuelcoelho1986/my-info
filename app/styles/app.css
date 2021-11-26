@@ -8,7 +8,8 @@
 @import "./components/profile/picture.css";
 
 /* Timeline and Cards Styles */
-@import "./components/timeline/timeline.css";
-@import "./components/timeline/card.css";
-
+@import "./components/vertical-line.css";
+@import "./timeline.css";
+@import "./components/cards.css";
+@import "./components/card.css";
 @import "./components/footer.css";

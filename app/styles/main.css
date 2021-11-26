@@ -4,7 +4,6 @@
 }
 
 html, body {
-  height: 100%;
 
   background: black;
 
@@ -23,6 +22,8 @@ body {
   padding: 0 2rem;
 
   margin: 0;
+
+  height: 100%;
 }
 
 hr {
@@ -34,7 +35,9 @@ hr {
   border-radius: 1rem;
 }
 
-.content {
+.content, .timeline-content {
+  position: relative;
+
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -61,7 +64,6 @@ footer {
   justify-content: center;
 
   padding: 2rem 0 0;
-  max-height: 2rem;
 }
 
 @media only screen and (min-width: 640px) {

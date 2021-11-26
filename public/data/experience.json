@@ -8,12 +8,12 @@
         "companyWebsite": "",
         "country": "Redacted",
         "title": "Senior Web Developer - Javascript/Typescrip",
-        "descritption": "I'm currently working with latest technologie stacks. <br>",
-        "tecnologies": [
+        "description": "I'm currently working with latest technologie stacks. <br>",
+        "technologies": [
             "<i class='fab fab-angular'></i>",
             "<i class='fab fab-react'></i>",
             "<i class='fab fab-ember'></i>",
-            "<i class='fab fab-cypress'></i>",
+            "<i class='fab fab-cypress'></i>"
         ],
         "programmingLanguages": [
             "<i class='fab fab-typescript'></i>",
@@ -28,8 +28,8 @@
         "companyWebsite": "https://polarising.com/",
         "country": "Portugal",
         "title": "Senior Web Developer",
-        "descritption": "",
-        "tecnologies": [],
+        "description": "",
+        "technologies": [],
         "programmingLanguages": [
 
         ]
@@ -43,8 +43,8 @@
         "companyWebsite": "https://www.betagy.com/",
         "country": "Malta",
         "title": "Senior Web Developer",
-        "descritption": "",
-        "tecnologies": [],
+        "description": "",
+        "technologies": [],
         "programmingLanguages": [
 
         ]
@@ -58,8 +58,8 @@
         "companyWebsite": "https://polarising.com/",
         "country": "Portugal",
         "title": "Senior Consultant",
-        "descritption": "",
-        "tecnologies": [],
+        "description": "",
+        "technologies": [],
         "programmingLanguages": [
 
         ]
@@ -73,8 +73,8 @@
         "companyWebsite": "https://polarising.com/",
         "country": "Ireland",
         "title": "Senior Web Developer",
-        "descritption": "",
-        "tecnologies": [],
+        "description": "",
+        "technologies": [],
         "programmingLanguages": [
 
         ]
@@ -88,11 +88,11 @@
         "companyWebsite": "https://wayacross.pt",
         "country": "Portugal",
         "title": "Developer",
-        "descritption": "",
-        "tecnologies": [
+        "description": "",
+        "technologies": [
             "<i class='fab fab-codeignoter'></i>",
             "<i class='fab fab-mysql'></i>",
-            "<i class='fab fab-php'></i>",
+            "<i class='fab fab-php'></i>"
         ],
         "programmingLanguages": [
 

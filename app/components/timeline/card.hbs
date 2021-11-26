@@ -1,7 +1,9 @@
-<div class="card">
-  <div class="card-date">{{ this.formatedTime }}</div>
-  <div class="card-name">{{ @name }}</div>
-  <div class="card-description">
-    {{markdown-to-html @description}}
+<li class="card_item">
+  <div class="card">
+    <div class="card__image card__image--fence"></div>
+      <div class="card__content">
+        <div class="card__title">Flex</div>
+        <p class="card__text">{{@item.description}}</p>
+      </div>
   </div>
-</div>
+</li>
