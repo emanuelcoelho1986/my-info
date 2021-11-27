@@ -10,7 +10,13 @@ module('Integration | Component | timeline/card', function (hooks) {
     // Set any properties with this.set('myProperty', 'value');
     // Handle any actions with this.set('myAction', function(val) { ... });
 
-    await render(hbs`<Timeline::Card />`);
+    const mockedCard = {
+      name: 'Flex',
+    };
+
+    this.set('card', mockedCard);
+
+    await render(hbs`<Timeline::Card @card={{this.card}} />`);
 
     assert.dom(this.element).hasText('Flex');
   });

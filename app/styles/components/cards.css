@@ -25,12 +25,8 @@
   width: 100%;
 }
 
-.card-item:not(:last-child) {
+.card-item:not(:first-child) {
   margin: 1rem 0 0;
-}
-
-.card-item:first-child {
-  margin: 0;
 }
 
 .card-item::before {

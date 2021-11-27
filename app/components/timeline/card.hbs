@@ -1,9 +1,27 @@
-<li class="card_item">
-  <div class="card">
-    <div class="card__image card__image--fence"></div>
-      <div class="card__content">
-        <div class="card__title">Flex</div>
-        <p class="card__text">{{@item.description}}</p>
-      </div>
-  </div>
+<li class="card-item">
+    <div class="card">
+        <div class="card-header">
+            <div class="imag"></div>
+            <div class="company-name">
+                <h1>{{@card.name}}</h1>
+            </div>
+            <div class="company-position">
+                <h2>{{@card.position}}</h2>
+            </div>
+            <div class="company-range">
+                <h3>
+                    {{@card.from}}
+                    {{#if @card.to}}
+                        - {{@card.to}}
+                    {{/if}}
+                </h3>
+            </div>
+            <div class="company-country">
+                <small>{{@card.country}}</small>
+            </div>
+        </div>
+        <div class="card-body">
+            {{@card.description}}
+        </div>
+    </div>
 </li>
