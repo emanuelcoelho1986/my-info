@@ -6,8 +6,8 @@
         "nameDescription": "Redacted",
         "webpage": "",
         "country": "Redacted",
-        "title": "Senior Web Developer - Javascript/Typescrip",
-        "description": "I'm currently working with latest technologie stacks. <br>",
+        "title": "Senior Web Developer - Javascript/Typescript",
+        "description": "I'm currently working with latest technologie stacks.",
         "technologies": [
             "<i class='fab fab-angular'></i>",
             "<i class='fab fab-react'></i>",
@@ -17,85 +17,6 @@
         "programmingLanguages": [
             "<i class='fab fab-typescript'></i>",
             "<i class='fab fab-javascript'></i>"
-        ]
-    },
-    {
-        "from": "2020/10/01",
-        "to": "2021/02/01",
-        "icon": "polarising",
-        "name": "Polarising, Lda",
-        "nameDescription": "Polarising is a Portuguese technology company founded in 2006 that provides end-to-end integration and customized software solutions. Recognized as one of the leading experts in the European market for TIBCO and Spring technologies, our headquarters are in Lisbon and we operate in Porto, London and Dusseldorf. Our team has 140+ consultants working together to ensure the best outcome for our clients.",
-        "webpage": "https://polarising.com/",
-        "country": "Portugal",
-        "title": "Senior Web Developer",
-        "description": "",
-        "technologies": [],
-        "programmingLanguages": [
-
-        ]
-    },
-    {
-        "from": "2020/02/01",
-        "to": "2021/09/30",
-        "icon": "",
-        "name": "Betagy, Lda",
-        "nameDescription": "Betagy is a young software house partner made up of veterans in the software industry. With years of experience behind us, we take pride in being an innovative company with big ideas. Our software platform, expertise and existing integrations with 3rd party providers are a guarantee to be a one stop shop for your needs.",
-        "webpage": "https://www.betagy.com/",
-        "country": "Malta",
-        "title": "Senior Web Developer",
-        "description": "",
-        "technologies": [],
-        "programmingLanguages": [
-
-        ]
-    },
-    {
-        "from": "2018/03/01",
-        "to": "2020/01/31",
-        "icon": "",
-        "name": "Polarising, Lda",
-        "nameDescription": "Polarising is a Portuguese technology company founded in 2006 that provides end-to-end integration and customized software solutions. Recognized as one of the leading experts in the European market for TIBCO and Spring technologies, our headquarters are in Lisbon and we operate in Porto, London and Dusseldorf. Our team has 140+ consultants working together to ensure the best outcome for our clients.",
-        "webpage": "https://polarising.com/",
-        "country": "Portugal",
-        "title": "Senior Consultant",
-        "description": "",
-        "technologies": [],
-        "programmingLanguages": [
-
-        ]
-    },
-    {
-        "from": "2015/09/01",
-        "to": "2018/03/30",
-        "icon": "",
-        "name": "Tweak, Lda",
-        "nameDescription": "Tweak.com is a company that provides business owners the possibility to design their own promotional products that have been carefully created to promote their businesses.<br/>Tweak processes a product builder did in Flash that creates products on-the-fly like Brochures. Newsletters, Flyers, etc. After finished with editing the products their structure (in XML) is forwarded to Adobe’s InDesign Server in order to render for printing. My role in the company consists of porting their current Flash builder to HTML5 and CSS using AngularJS/FabricJS.",
-        "webpage": "https://www.tweak.com/",
-        "country": "Ireland",
-        "title": "Senior Web Developer",
-        "description": "",
-        "technologies": [],
-        "programmingLanguages": [
-
-        ]
-    },
-    {
-        "from": "2010/01/01",
-        "to": "2015/09/01",
-        "icon": "",
-        "name": "WayAcross, Lda",
-        "nameDescription": "WayAcross, Lda is a company focused on Web and Mobile technologies. WayAcross's latest project is mostly focused on helping companies management. This project is more focused on administrative roles and HR (Human Resources Department). In the mobile field, the company has a couple of applications for the same purpose, for management. All of these projects are meant for internal use so they are not available in stores such as PlayStore or Apple Store.<br/>Since I’ve joined this company my main role is Software Architecture and database designs. After designing them and explain them, if approved, I start developing based on those designs.<br/>My first project was defined in the company’s core Back-office structure. In recent projects (middle 2014 until now) I’ve been using JEE for some projects for the same client. Of one of those projects, there was a need of using AngularJS to create some Dashboard Widgets",
-        "webpage": "https://wayacross.pt",
-        "country": "Portugal",
-        "title": "Developer",
-        "description": "",
-        "technologies": [
-            "<i class='fab fab-codeignoter'></i>",
-            "<i class='fab fab-mysql'></i>",
-            "<i class='fab fab-php'></i>"
-        ],
-        "programmingLanguages": [
-
         ]
     }
 ]

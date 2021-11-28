@@ -15,7 +15,19 @@
 }
 
 .card *{
-  margin: 0;
+  margin: 0rem;
+}
+
+.card h1, .card h2 {
+  margin: 0.3rem 0;
+}
+
+.card h3 {
+  margin: 0.5rem 0;
+}
+
+.card .company-country {
+  margin: 0 0 1rem 0;
 }
 
 .card .card-header img {
