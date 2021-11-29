@@ -18,6 +18,6 @@ module('Integration | Component | timeline/card', function (hooks) {
 
     await render(hbs`<Timeline::Card @card={{this.card}} />`);
 
-    assert.dom(this.element).hasText('Flex');
+    assert.dom(this.element).hasText('Flex - Present');
   });
 });
