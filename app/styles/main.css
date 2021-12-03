@@ -47,7 +47,7 @@ hr {
   width: 100%;
   font-size: 15px;
 
-  max-width: 1333px;
+  max-width: 100%;
   align-self: center;
 }
 
@@ -79,6 +79,11 @@ footer {
     letter-spacing: 0.2rem;
   
     font-size: initial;
+  }
+
+  body {
+    max-width: 1333px;
+    margin: 0 auto;
   }
 
   .content{
