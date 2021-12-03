@@ -36,12 +36,18 @@
             <div class="description-container">
                 {{escape-html @card.description}}
             </div>
-            <div class="technologies-container">
-                <Icons @icons={{@card.technologies}} @title="Technologies" />
-            </div>
-            <div class="languages-container">
-                <Icons @icons={{@card.programmingLanguages}} @title="Programming Languages" />
-            </div>
+
+            {{#if @card.technologies}}
+                <div class="technologies-container">
+                    <Icons @icons={{@card.technologies}} @title="Technologies" />
+                </div>
+            {{/if}}
+
+            {{#if @card.programmingLanguages}}
+                <div class="languages-container">
+                    <Icons @icons={{@card.programmingLanguages}} @title="Programming Languages" />
+                </div>
+            {{/if}}
         </div>
     </a>
 </li>
