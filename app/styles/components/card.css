@@ -7,7 +7,7 @@
   overflow: hidden;
   color: black;
 
-  padding: 1rem;
+  padding: 3rem;
 
   width: 100%;
 
@@ -33,4 +33,22 @@
 .card .card-header img {
   max-width: 480px;
   max-height: 4rem;
+}
+
+.card .card-body > *:not(:first-child) {
+  margin: 5rem 0;
+}
+
+.card .card-body > *:last-child {
+  margin: 5rem 0 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .card {
+    padding: 1rem;
+  }
+
+  .card .card-body > *:not(:first-child) {
+    margin: 3rem 0 0;
+  }
 }

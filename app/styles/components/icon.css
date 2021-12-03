@@ -1,0 +1,28 @@
+.icon {
+    height: 7rem;
+    width: 7rem;
+
+    display: block;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+
+    text-align: center;
+}
+
+.icon .text-container {
+    display: flex;
+    flex-shrink:0;
+    flex-basis:auto;
+}
+
+@media only screen and (min-width: 640px) {
+    .icon{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+}
+  

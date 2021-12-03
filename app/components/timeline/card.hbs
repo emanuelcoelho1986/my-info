@@ -33,7 +33,15 @@
             </div>
         </div>
         <div class="card-body">
-            {{@card.description}}
+            <div class="description-container">
+                {{escape-html @card.description}}
+            </div>
+            <div class="technologies-container">
+                <Icons @icons={{@card.technologies}} @title="Technologies" />
+            </div>
+            <div class="languages-container">
+                <Icons @icons={{@card.programmingLanguages}} @title="Programming Languages" />
+            </div>
         </div>
     </a>
 </li>

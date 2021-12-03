@@ -3,21 +3,25 @@ import { setupRenderingTest } from 'ember-qunit';
 import { render } from '@ember/test-helpers';
 import { hbs } from 'ember-cli-htmlbars';
 
-module('Integration | Component | timeline/card', function (hooks) {
+module('Integration | Component | icons', function (hooks) {
   setupRenderingTest(hooks);
 
   test('it renders', async function (assert) {
     // Set any properties with this.set('myProperty', 'value');
     // Handle any actions with this.set('myAction', function(val) { ... });
 
-    const mockedCard = {
-      name: 'Flex',
-    };
+    const mockedIconList = [
+      {
+        name: 'XML',
+        svg: null,
+        icon: null,
+      },
+    ];
 
-    this.set('card', mockedCard);
+    this.set('icons', mockedIconList);
 
-    await render(hbs`<Timeline::Card @card={{this.card}} />`);
+    await render(hbs`<Icons @icons={{this.icons}} />`);
 
-    assert.dom(this.element).containsText('Flex - Present');
+    assert.dom(this.element).hasText(mockedIconList[0].name);
   });
 });

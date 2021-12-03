@@ -1,0 +1,12 @@
+<div class="icons-container">
+    <h4>{{@title}}</h4>
+    <div class="icons-list-container">
+        <ul>
+            {{#each @icons as |icon|}}
+                <li>
+                    <Icon @icon={{icon}} />
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+</div>

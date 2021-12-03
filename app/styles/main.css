@@ -11,6 +11,8 @@ html, body {
 
   font-family: "jmh", "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
   letter-spacing: 0.2rem;
+
+  font-size: 1vw;
 }
 
 body {
