@@ -1,0 +1,47 @@
+<li class="card-item">
+    <a href="{{@card.webpage}}" class="card" target="_blank" rel="noopener noreferrer">
+
+        <div class="card-header">
+            {{#if @card.icon}}
+                <div class="image">
+                    <img src="/assets/images/companies/{{@card.icon}}/logo.svg"
+                        title="{{@card.name}}" 
+                        alt="{{@card.name}}" />
+                </div>
+            {{else}}
+                <div class="company-name">
+                    <h1>{{@card.name}}</h1>
+                </div>
+            {{/if}}
+            <div class="company-position">
+                <h2>{{@card.title}}</h2>
+            </div>
+            <div class="company-range">
+                <h3>
+                    {{@card.from}} -
+                    {{#if @card.to}}
+                        {{@card.to}}
+                    {{else}}
+                        Present
+                    {{/if}}
+                </h3>
+            </div>
+            <div class="company-country">
+                <small>
+                    <i>{{@card.country}}</i>
+                </small>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="description-container">
+                {{escape-html @card.description}}
+            </div>
+            <div class="technologies-container">
+                <Icons @icons={{@card.technologies}} @title="Technologies" />
+            </div>
+            <div class="languages-container">
+                <Icons @icons={{@card.programmingLanguages}} @title="Programming Languages" />
+            </div>
+        </div>
+    </a>
+</li>

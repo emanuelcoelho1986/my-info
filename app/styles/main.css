@@ -4,7 +4,6 @@
 }
 
 html, body {
-  height: 100%;
 
   background: black;
 
@@ -12,6 +11,8 @@ html, body {
 
   font-family: "jmh", "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
   letter-spacing: 0.2rem;
+
+  font-size: 1vw;
 }
 
 body {
@@ -23,6 +24,8 @@ body {
   padding: 0 2rem;
 
   margin: 0;
+
+  height: 100%;
 }
 
 hr {
@@ -34,12 +37,18 @@ hr {
   border-radius: 1rem;
 }
 
-.content {
+.content, .timeline-content {
+  position: relative;
+
   display: flex;
+  flex-flow: column;
   justify-content: center;
 
   width: 100%;
   font-size: 15px;
+
+  max-width: 1333px;
+  align-self: center;
 }
 
 .container {
@@ -57,5 +66,10 @@ footer {
   justify-content: center;
 
   padding: 2rem 0 0;
-  max-height: 2rem;
+}
+
+@media only screen and (min-width: 640px) {
+  .content{
+    flex-flow: row;
+  }
 }

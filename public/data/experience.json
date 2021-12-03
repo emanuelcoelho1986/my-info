@@ -1,0 +1,433 @@
+[
+    {
+        "from": "2021/03",
+        "to": null,
+        "name": "Redacted",
+        "nameDescription": "Redacted",
+        "webpage": "",
+        "country": "Redacted - Remote",
+        "title": "Senior Web Developer",
+        "description": "REDACTED",
+        "technologies": [
+            {
+                "name": "Angular",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg' title='Angular' alt='Angular' />",
+                "icon": null
+            },
+            {
+                "name": "React",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg'' title='React' alt='React' />",
+                "icon": null
+            },
+            {
+                "name": "Ember",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ember/ember-original-wordmark.svg' title='Emberjs' alt='Emberjs' />",
+                "icon": null
+            },
+            {
+                "name": "Cypress",
+                "svg": "<img src='/assets/images/technologies/cypress.svg' title='Cypress' alt='Cypress' />",
+                "icon": null
+            },
+            {
+                "name": "Docker",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg' title='Docker' alt='Docker' />"
+            },
+            {
+                "name": "Git",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg' title='Git' alt='Git' />"
+            },
+            {
+                "name": "GitLab",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original-wordmark.svg' title='GitLab' alt='GitLab' /> "
+            }
+        ],
+        "programmingLanguages": [
+            {
+                "name": "Javascript",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg' title='Javascript' alt='Javascript' />",
+                "icon": null
+            },
+            {
+                "name": "TypeScript",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg' title='TypeScript' alt='TypeScript' />",
+                "icon": null
+            }
+        ]
+    },
+
+    {
+        "from": "2020/10",
+        "to": "2021/03",
+        "name": "Polarising",
+        "nameDescription": "Outsourcing",
+        "webpage": "https://www.polarising.com",
+        "country": "Portugal",
+        "title": "Senior Web Developer",
+        "description": "Product Oriented Development in an Agile/Scrum approach",
+        "technologies": [
+            {
+                "name": "Angular",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg' title='Angular' alt='Angular' />",
+                "icon": null
+            },
+            {
+                "name": "React",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg'' title='React' alt='React' />",
+                "icon": null
+            },
+            {
+                "name": "Jest",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg' title='Jest' alt='Jest' />",
+                "icon": null
+            },
+            {
+                "name": "Cypress",
+                "svg": "<img src='/assets/images/technologies/cypress.svg' title='Cypress' alt='Cypress' />",
+                "icon": null
+            },
+            {
+                "name": "Docker",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg' title='Docker' alt='Docker' />"
+            },
+            {
+                "name": "Express",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg' title='Express' alt='Express' />"
+            },
+            {
+                "name": "Git",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg' title='Git' alt='Git' />"
+            },
+            {
+                "name": "GitHub",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' title='GitHub' alt='GitHub' /> "
+            }
+        ],
+        "programmingLanguages": [
+            {
+                "name": "Javascript",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg' title='Javascript' alt='Javascript' />",
+                "icon": null
+            },
+            {
+                "name": "TypeScript",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg' title='TypeScript' alt='TypeScript' />",
+                "icon": null
+            },
+            {
+                "name": "SCSS",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg' title='SCSS' alt='SCSS' />",
+                "icon": null
+            },
+            {
+                "name": "Yaml",
+                "svg": "<img src='/assets/images/technologies/yml.svg' title='Yaml' alt='Yaml' />",
+                "icon": null
+            },
+            {
+                "name": "HTML",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg' title='HTML' alt='HTML' />",
+                "icon": null
+            }
+        ]
+    },
+
+    {
+        "from": "2020/02",
+        "to": "2020/10",
+        "name": "Betagy, Lda",
+        "nameDescription": "Game Development",
+        "webpage": "https://www.linkedin.com/company/betagy/",
+        "country": "Malta",
+        "title": "Senior Frontend Developer",
+        "description": "Betagy is a young software house partner made up of veterans in the software industry. With years of experience behind us, we take pride in being an innovative company with big ideas. Our software platform, expertise and existing integrations with 3rd party providers are a guarantee to be a one stop shop for your needs.",
+        "technologies": [
+            {
+                "name": "Angular",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg' title='Angular' alt='Angular' />",
+                "icon": null
+            },
+            {
+                "name": "Jest",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg' title='Jest' alt='Jest' />",
+                "icon": null
+            },
+            {
+                "name": "Karma",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/karma/karma-plain.svg' title='Jest' alt='Jest' />",
+                "icon": null
+            },
+            {
+                "name": "NodeJS",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' title='NodeJS' alt='NodeJS' />",
+                "icon": null
+            },
+            {
+                "name": "Git",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg' title='Git' alt='Git' />"
+            }
+        ],
+        "programmingLanguages": [
+            {
+                "name": "Javascript",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg' title='Javascript' alt='Javascript' />",
+                "icon": null
+            },
+            {
+                "name": "TypeScript",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg' title='TypeScript' alt='TypeScript' />",
+                "icon": null
+            },
+            {
+                "name": "SCSS",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg' title='SCSS' alt='SCSS' />",
+                "icon": null
+            },
+            {
+                "name": "Yaml",
+                "svg": "<img src='/assets/images/technologies/yml.svg' title='Yaml' alt='Yaml' />",
+                "icon": null
+            },
+            {
+                "name": "HTML",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg' title='HTML' alt='HTML' />",
+                "icon": null
+            }
+        ]
+    },
+
+    
+    {
+        "from": "2018/03",
+        "to": "2020/02",
+        "name": "Polarising",
+        "nameDescription": "Outsourcing",
+        "webpage": "https://www.polarising.com",
+        "country": "Portugal",
+        "title": "Senior Web Developer",
+        "description": "Polarising is a Portuguese technology company founded in 2006 that provides end-to-end integration and customized software solutions. Recognized as one of the leading experts in the European market for TIBCO and Spring technologies, our headquarters are in Lisbon and we operate in Porto, London and Dusseldorf. Our team has 140+ consultants working together to ensure the best outcome for our clients.<br><br>Product Oriented Development in an Agile/Scrum approach",
+        "technologies": [
+            {
+                "name": "Angular",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg' title='Angular' alt='Angular' />",
+                "icon": null
+            },
+            {
+                "name": "Jest",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg' title='Jest' alt='Jest' />",
+                "icon": null
+            },
+            {
+                "name": "Cypress",
+                "svg": "<img src='/assets/images/technologies/cypress.svg' title='Cypress' alt='Cypress' />",
+                "icon": null
+            },
+            {
+                "name": "Docker",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg' title='Docker' alt='Docker' />"
+            },
+            {
+                "name": "NodeJS",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' title='NodeJS' alt='NodeJS' />",
+                "icon": null
+            },
+            {
+                "name": "CircleCI",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/circleci/circleci-plain-wordmark.svg' title='CircleCI' alt='CircleCI' />"
+            },
+            {
+                "name": "Google Cloud",
+                "svg":"<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original-wordmark.svg' title='Google Cloud' alt='Google Cloud' />"
+            },
+            {
+                "name": "Git",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg' title='Git' alt='Git' />"
+            },
+            {
+                "name": "GitHub",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' title='GitHub' alt='GitHub' /> "
+            }
+        ],
+        "programmingLanguages": [
+            {
+                "name": "Javascript",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg' title='Javascript' alt='Javascript' />",
+                "icon": null
+            },
+            {
+                "name": "TypeScript",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg' title='TypeScript' alt='TypeScript' />",
+                "icon": null
+            },
+            {
+                "name": "SCSS",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg' title='SCSS' alt='SCSS' />",
+                "icon": null
+            },
+            {
+                "name": "Yaml",
+                "svg": "<img src='/assets/images/technologies/yml.svg' title='Yaml' alt='Yaml' />",
+                "icon": null
+            },
+            {
+                "name": "HTML",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg' title='HTML' alt='HTML' />",
+                "icon": null
+            }
+        ]
+    },
+
+    {
+        "from": "2015/09",
+        "to": "2018/03",
+        "name": "Tweak",
+        "nameDescription": "Outsourcing",
+        "webpage": "https://www.twweak.com",
+        "country": "Ireland",
+        "title": "Senior Web Developer",
+        "description": "Tweak.com is a company that provides business owners the possibility to design their own promotional products that have been carefully created to promote their businesses.<br>Tweak processes a product builder did in Flash that creates products on-the-fly like Brochures. Newsletters, Flyers, etc. After finished with editing the products their structure (in XML) is forwarded to Adobe’s InDesign Server in order to render for printing. My role in the company consists of porting their current Flash builder to HTML5 and CSS using AngularJS/FabricJS.<br><br>Product Oriented Development with a custom dev methodology approach",
+        "technologies": [
+            {
+                "name": "Angular",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg' title='AngularJS' alt='AngularJS' />",
+                "icon": null
+            },
+            {
+                "name": "FabricJS",
+                "svg": "<img src='/assets/images/technologies/fabricjs.svg' title='FabricJS' alt='FabricJS' />"
+            },
+            {
+                "name": "NodeJS",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' title='NodeJS' alt='NodeJS' />",
+                "icon": null
+            },
+            {
+                "name": "Amazon AWS",
+                "svg":"<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg' title='Amazon AWS' alt='Amazon AWS' />"
+            },
+            {
+                "name": "PDFKit",
+                "svg": "<img src='/assets/images/technologies/pdfkit.svg' title='PDFKit' alt='PDFKit' />"
+            },
+            {
+                "name": "Git",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg' title='Git' alt='Git' />"
+            }
+        ],
+        "programmingLanguages": [
+            {
+                "name": "Javascript",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg' title='Javascript' alt='Javascript' />",
+                "icon": null
+            },
+            {
+                "name": "SCSS",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg' title='SCSS' alt='SCSS' />",
+                "icon": null
+            },
+            {
+                "name": "Yaml",
+                "svg": "<img src='/assets/images/technologies/yml.svg' title='Yaml' alt='Yaml' />",
+                "icon": null
+            },
+            {
+                "name": "HTML",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg' title='HTML' alt='HTML' />",
+                "icon": null
+            },
+            {
+                "name": "XML",
+                "svg": "<img src='/assets/images/technologies/xml.svg' title='XML' alt='XML' />",
+                "icon": null
+            },
+            {
+                "name": "Python",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg' title='Python 2' alt='Python 2' />",
+                "icon": null
+            }
+        ]
+    },
+
+    {
+        "from": "2015/09",
+        "to": "2018/03",
+        "name": "Wayacross",
+        "nameDescription": "Product development",
+        "webpage": "https://www.wayacross.pt",
+        "country": "Portugal",
+        "title": "Software and Web Developer",
+        "description": "WayAcross, Lda is a company focused on Web and Mobile technologies. WayAcross's latest project is mostly focused on helping companies management. This project is more focused on administrative roles and HR (Human Resources Department). In the mobile field, the company has a couple of applications for the same purpose, for management. All of these projects are meant for internal use so they are not available in stores such as PlayStore or Apple Store.<br>        Since I’ve joined this company my main role is Software Architecture and database designs. After designing them and explain them, if approved, I start developing based on those designs. My first project was defined in the company’s core Back-office structure. In recent projects (middle 2014 until now) I’ve been using JEE for some projects for the same client. Of one of those projects, there was a need of using AngularJS to create some Dashboard Widgets",
+        "technologies": [
+            {
+                "name": "Angular",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg' title='AngularJS' alt='AngularJS' />",
+                "icon": null
+            },
+            {
+                "name": "NodeJS",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' title='NodeJS' alt='NodeJS' />",
+                "icon": null
+            },
+
+            {
+                "name": "CodeIgniter",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain-wordmark.svg' title='CodeIgniter' alt='CodeIgniter' />",
+                "icon": null
+            },
+
+            {
+                "name": "MySQL",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' title='MySQL' alt='MySQL' />",
+                "icon": null
+            },
+
+            {
+                "name": "Android",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg' title='MySQL' alt='MySQL' />",
+                "icon": null
+            },
+
+            {
+                "name": "Git",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg' title='Git' alt='Git' />"
+            }
+        ],
+        "programmingLanguages": [
+            {
+                "name": "Javascript",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg' title='Javascript' alt='Javascript' />",
+                "icon": null
+            },
+            {
+                "name": "HTML",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg' title='HTML' alt='HTML' />",
+                "icon": null
+            },
+            {
+                "name": "CSS",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg' title='CSS' alt='CSS' />",
+                "icon": null
+            },
+            {
+                "name": "Java",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' title='Java' alt='Java' />",
+                "icon": null
+            },
+            {
+                "name": "PHP",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg' title='PHP' alt='PHP' />",
+                "icon": null
+            },
+            {
+                "name": "SQL",
+                "svg": "<img src='/assets/images/technologies/sql.svg' title='SQL' alt='SQL' />",
+                "icon": null
+            },
+            {
+                "name": "XML",
+                "svg": "<img src='/assets/images/technologies/xml.svg' title='XML' alt='XML' />",
+                "icon": null
+            }
+        ]
+    }
+]

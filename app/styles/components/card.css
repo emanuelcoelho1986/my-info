@@ -1,0 +1,54 @@
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color: black;
+
+  padding: 3rem;
+
+  width: 100%;
+
+  text-decoration: none;
+}
+
+.card *{
+  margin: 0rem;
+}
+
+.card h1, .card h2 {
+  margin: 0.3rem 0;
+}
+
+.card h3 {
+  margin: 0.5rem 0;
+}
+
+.card .company-country {
+  margin: 0 0 1rem 0;
+}
+
+.card .card-header img {
+  max-width: 480px;
+  max-height: 4rem;
+}
+
+.card .card-body > *:not(:first-child) {
+  margin: 5rem 0;
+}
+
+.card .card-body > *:last-child {
+  margin: 5rem 0 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .card {
+    padding: 1rem;
+  }
+
+  .card .card-body > *:not(:first-child) {
+    margin: 3rem 0 0;
+  }
+}

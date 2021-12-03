@@ -6,4 +6,12 @@
 @import "./components/menu.css";
 @import "./components/menu/mobile-menu.css";
 @import "./components/profile/picture.css";
+@import "./components/icons.css";
+@import "./components/icon.css";
+
+/* Timeline and Cards Styles */
+@import "./components/vertical-line.css";
+@import "./timeline.css";
+@import "./components/cards.css";
+@import "./components/card.css";
 @import "./components/footer.css";

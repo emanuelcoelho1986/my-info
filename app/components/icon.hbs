@@ -1,0 +1,11 @@
+<div class="icon">
+    {{#if @icon.icon}}
+        {{escape-html @icon.icon}}
+    {{else if @icon.svg}}
+        {{escape-html @icon.svg}}
+    {{else}}
+        <div class="text-container">
+            <span>{{@icon.name}}</span>
+        </div>
+    {{/if}}
+</div>

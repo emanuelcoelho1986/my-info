@@ -26,7 +26,7 @@
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 640px) {
   .mobile-menu-burguer, #mySidenav {
     display: none;
   }
