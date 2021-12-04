@@ -16,6 +16,7 @@
 
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .icons-container .icons-list-container li:not(:first-of-type) {

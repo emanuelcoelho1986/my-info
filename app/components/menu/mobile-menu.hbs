@@ -6,6 +6,8 @@
   <div class="bar3"></div>
 </button>
 
-<div id="mySidenav" class="sidenav {{ if this.isOpen "change" }}">
-  <Menu::MenuLinks />
+<div id="mySidenav" class="sidenav {{ if this.isOpen "change" }}"
+     role="button"
+    {{on "click" this.didPressMenuButton}}>
+      <Menu::MenuLinks />
 </div>
