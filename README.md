@@ -4,7 +4,7 @@
 
 Project is automaticly deployed using GitHub Actions to Firebase. Its available here: https://my-info-f7508.web.app
 
-## Astract
+## Abstract
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
