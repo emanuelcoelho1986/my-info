@@ -11,4 +11,5 @@ Router.map(function () {
   this.route('education');
   this.route('experience');
   this.route('other');
+  this.route('projects');
 });
