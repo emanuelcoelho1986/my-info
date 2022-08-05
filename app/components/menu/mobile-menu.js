@@ -5,6 +5,10 @@ import { tracked } from '@glimmer/tracking';
 export default class MenuMobileMenuController extends Component {
   @tracked isOpen = false;
 
+  get openClass() {
+    return this.isOpen ? 'change' : 'hidden';
+  }
+
   @action
   didChangeRoute() {
     this.setMenu(false);
