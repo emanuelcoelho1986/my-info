@@ -282,7 +282,7 @@
         "to": "2018/03",
         "name": "Tweak",
         "nameDescription": "Outsourcing",
-        "webpage": "https://www.twweak.com",
+        "webpage": "https://www.tweak.com",
         "country": "Ireland",
         "title": "Senior Web Developer",
         "description": "Tweak.com is a company that provides business owners the possibility to design their own promotional products that have been carefully created to promote their businesses.<br>Tweak processes a product builder did in Flash that creates products on-the-fly like Brochures. Newsletters, Flyers, etc. After finished with editing the products their structure (in XML) is forwarded to Adobe’s InDesign Server in order to render for printing. My role in the company consists of porting their current Flash builder to HTML5 and CSS using AngularJS/FabricJS.<br><br>Product Oriented Development with a custom dev methodology approach",
