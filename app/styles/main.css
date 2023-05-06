@@ -1,61 +1,50 @@
 @font-face {
-  font-family: "jmh";
+  font-family: jmh;
   src: url("/assets/fonts/JMH Typewriter.otf");
 }
 
-html, body {
-
+html,
+body {
   background: black;
-
   color: white;
-
-  font-family: "jmh", "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+  font-family: jmh, "Helvetica Neue Light", HelveticaNeue-Light,
+    "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
   letter-spacing: 0.2rem;
-
   font-size: 14px;
-
   line-height: 1.2;
 }
 
 body {
   display: flex;
-
   flex-flow: column;
-
   font-size: 32px;
   padding: 0 2rem;
-
   margin: 0;
-
   height: 100%;
 }
 
 hr {
   width: 100%;
   height: 0.1rem;
-
   background-color: white;
   border: 1px solid black;
   border-radius: 1rem;
 }
 
-.content, .timeline-content {
+.content,
+.timeline-content {
   position: relative;
-
   display: flex;
   flex-flow: column;
   justify-content: center;
-
   width: 100%;
   font-size: 15px;
-
   max-width: 100%;
   align-self: center;
 }
 
 .container {
   max-width: 768px;
-
   justify-self: center;
 }
 
@@ -66,7 +55,6 @@ hr {
 footer {
   display: flex;
   justify-content: center;
-
   padding: 2rem 0 0;
 }
 
@@ -74,17 +62,14 @@ footer {
   visibility: hidden;
 }
 
-
-@media only screen and (min-width: 640px) {
-  html, body {
-
+@media only screen and (width >= 640px) {
+  html,
+  body {
     background: black;
-  
     color: white;
-  
-    font-family: "jmh", "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+    font-family: jmh, "Helvetica Neue Light", HelveticaNeue-Light,
+      "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
     letter-spacing: 0.2rem;
-
     font-size: 18px;
   }
 
@@ -93,7 +78,7 @@ footer {
     margin: 0 auto;
   }
 
-  .content{
+  .content {
     flex-flow: row;
   }
 }

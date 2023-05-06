@@ -1,17 +1,17 @@
-@import "./main.css";
+@import url("./main.css");
 
 /* Components style */
-@import "./components/header.css";
-@import "./components/cursor.css";
-@import "./components/menu.css";
-@import "./components/menu/mobile-menu.css";
-@import "./components/profile/picture.css";
-@import "./components/icons.css";
-@import "./components/icon.css";
+@import url("./components/header.css");
+@import url("./components/cursor.css");
+@import url("./components/menu.css");
+@import url("./components/menu/mobile-menu.css");
+@import url("./components/profile/picture.css");
+@import url("./components/icons.css");
+@import url("./components/icon.css");
 
 /* Timeline and Cards Styles */
-@import "./components/vertical-line.css";
-@import "./timeline.css";
-@import "./components/cards.css";
-@import "./components/card.css";
-@import "./components/footer.css";
+@import url("./components/vertical-line.css");
+@import url("./timeline.css");
+@import url("./components/cards.css");
+@import url("./components/card.css");
+@import url("./components/footer.css");

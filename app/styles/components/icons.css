@@ -1,24 +1,20 @@
 .icons-container {
-    display: flex;
-    flex-flow: column;
-
-    width: 100%;
-
-    margin: 0.2rem 0;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  margin: 0.2rem 0;
 }
 
 .icons-list-container ul {
-    list-style: none;
-    margin: 0.3rem 0;
-    padding: 0%;
-
-    vertical-align: middle;
-
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+  list-style: none;
+  margin: 0.3rem 0;
+  padding: 0%;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .icons-container .icons-list-container li:not(:first-of-type) {
-    margin: 0.0.3rem;
- }
+  margin: 0.3rem;
+}
