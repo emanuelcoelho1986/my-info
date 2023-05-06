@@ -12,7 +12,6 @@ footer nav a {
   text-transform: none;
   text-decoration: none;
   margin: 0 0.5rem;
-
   color: white;
 }
 
@@ -27,7 +26,6 @@ footer nav a:last-of-type {
 
 footer .emberjs {
   padding: 1rem 0;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,6 +38,5 @@ footer .emberjs .fa-ember {
 footer small {
   font-size: 10px;
   font-weight: lighter;
-
   font-style: italic;
 }
