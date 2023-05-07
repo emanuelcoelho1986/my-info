@@ -12,10 +12,9 @@ export const mapOfROutesAndNames = new Map<string, string>([
 ]);
 
 export default class HeaderComponent extends Component {
-  @service() router: RouterService | undefined;
+  @service declare router: RouterService;
 
   get currentRoute() {
-    const currentRouteName = this.router?.get('currentRouteName') || DEFAULT_ROUTE_NAME;
-    return mapOfROutesAndNames.has(currentRouteName) ? mapOfROutesAndNames.get(currentRouteName) : mapOfROutesAndNames.get(DEFAULT_ROUTE_NAME);
+    return mapOfROutesAndNames.has(this.router.get('currentRouteName') ) ? mapOfROutesAndNames.get(this.router.get('currentRouteName') ) : mapOfROutesAndNames.get(DEFAULT_ROUTE_NAME);
   }
 }

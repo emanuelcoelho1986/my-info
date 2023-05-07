@@ -19,7 +19,7 @@ export default class MenuMobileMenuController extends Component {
     this.setMenu(!this.isOpen);
   }
 
-  setMenu(isOpen) {
+  setMenu(isOpen: boolean) {
     this.isOpen = isOpen;
   }
 }
