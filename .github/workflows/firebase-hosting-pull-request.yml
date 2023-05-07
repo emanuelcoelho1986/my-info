@@ -7,15 +7,35 @@ jobs:
   build_and_preview:
     if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x, 18.x]
     steps:
-      - uses: actions/checkout@v2
-      - run: npm install ember-cli
-      - run: npm install
-      - run: npm test
-      - run: npm run build
-      - run: |
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js from ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Instal Ember CLI
+        run: npm install ember-cli
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Tests
+        run: npm test
+
+      - name: Build for production
+        run: npm run build
+
+      - name: Extract Version
+        run: |
           sh utils/extract-version.sh
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+
+      - name: Firebase PR Deploy
+        uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MY_INFO_F7508 }}'
