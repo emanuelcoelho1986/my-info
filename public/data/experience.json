@@ -2,26 +2,21 @@
     {
         "from": "2021/03",
         "to": null,
-        "name": "Redacted",
-        "nameDescription": "Redacted",
-        "webpage": "",
-        "country": "Redacted - Remote",
+        "name": "Vigil",
+        "nameDescription": "",
+        "webpage": "https://vigil.global/",
+        "country": "Remote",
         "title": "Senior Web Developer",
-        "description": "REDACTED",
+        "description": "",
         "technologies": [
             {
-                "name": "Angular",
-                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg' title='Angular' alt='Angular' />",
+                "name": "Ember",
+                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ember/ember-original-wordmark.svg' title='Emberjs' alt='Emberjs' />",
                 "icon": null
             },
             {
                 "name": "React",
                 "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg'' title='React' alt='React' />",
-                "icon": null
-            },
-            {
-                "name": "Ember",
-                "svg": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ember/ember-original-wordmark.svg' title='Emberjs' alt='Emberjs' />",
                 "icon": null
             },
             {
