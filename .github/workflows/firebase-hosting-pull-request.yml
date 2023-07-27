@@ -9,10 +9,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+
       - name: Instal Ember CLI
         run: npm install ember-cli
-      - run: npm ci && npm run build
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run linter
+        run: npm run lint
+
+      - name: Run Tests
+        run: make test
+
+      - name: Build for production
+        run: make build
+
+      - name: Extract Version
+        run: |
+          sh utils/extract-version.sh
+
+      - name: Firebase PR Deploy
+        uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MY_INFO_F7508 }}'
