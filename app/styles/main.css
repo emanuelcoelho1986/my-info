@@ -1,17 +1,10 @@
-@font-face {
-  font-family: jmh;
-  src: url("/assets/fonts/JMH Typewriter.otf");
-}
-
 html,
 body {
   background: black;
   color: white;
-  font-family: jmh, "Helvetica Neue Light", HelveticaNeue-Light,
+  font-family: Roboto, "Helvetica Neue Light", HelveticaNeue-Light,
     "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
-  letter-spacing: 0.2rem;
-  font-size: 14px;
-  line-height: 1.2;
+  font-size: 16px;
 }
 
 body {
@@ -38,7 +31,6 @@ hr {
   flex-flow: column;
   justify-content: center;
   width: 100%;
-  font-size: 15px;
   max-width: 100%;
   align-self: center;
 }
@@ -67,9 +59,8 @@ footer {
   body {
     background: black;
     color: white;
-    font-family: jmh, "Helvetica Neue Light", HelveticaNeue-Light,
+    font-family: Roboto, "Helvetica Neue Light", HelveticaNeue-Light,
       "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
-    letter-spacing: 0.2rem;
     font-size: 18px;
   }
 
