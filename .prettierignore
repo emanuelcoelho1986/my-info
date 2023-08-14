@@ -12,10 +12,10 @@
 
 # misc
 /coverage/
-!.*
-.eslintcache
-
-# ember-try
+	@@ -19,3 +13,7 @@
 /.node_modules.ember-try/
 /bower.json.ember-try
 /package.json.ember-try
+
+# ember-try
+/.node_modules.ember-try/
